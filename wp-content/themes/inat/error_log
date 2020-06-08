@@ -1,0 +1,4 @@
+[05-Jun-2019 23:44:57 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/inatsumm/public_html/wp-content/themes/inat/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/inatsumm/public_html/wp-content/themes/inat/index.php on line 14

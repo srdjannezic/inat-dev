@@ -1,0 +1,9 @@
+.pix-enable, .pix-disable, .pix-enable span, .pix-disable span { background: url(../images/switch.gif) repeat-x; display: block; float: left; }
+.pix-enable span, .pix-disable span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+.pix-enable span { background-position: left -90px; padding: 0 10px; }
+.pix-disable span { background-position: right -180px;padding: 0 10px; }
+.pix-disable.selected { background-position: 0 -30px; }
+.pix-disable.selected span { background-position: right -210px; color: #fff; }
+.pix-enable.selected { background-position: 0 -60px; }
+.pix-enable.selected span { background-position: left -150px; color: #fff; }
+.pix-hidden{display:none!important;}

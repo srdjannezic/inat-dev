@@ -1,0 +1,572 @@
+/*LAYOUTS*/
+html,body{ overflow-x: hidden;  }
+body{}
+.container{width:100% !important;}
+.row{width:1200px !important;margin-left:auto !important;margin-right:auto !important;}
+.row.fullwidth{width:100% !important; margin-left:0 !important;margin-right:0 !important;} 
+/*END LAYOUTS*/
+
+/*HELPERS*/
+.hide{display:none !important;}
+.show{display:block !important;}
+.show-on-mobile{display:none !important;}
+.show-on-desktop{display:block !important;}
+.half-width{width:50% !important;}
+.full-width{width:100% !important;}
+.block-center{margin-left:auto !important;margin-right:auto !important;}
+.text-center{text-align:center !important;} 
+.text-left{text-align:left !important;}
+.text-right{text-align:right !important;}
+.left{float:left !important;}
+.right{float:right !important;}
+.home .entry-header{display: none !important;}
+#responsive-menu-container{opacity: 0;}
+.responsive-menu-open #responsive-menu-container{opacity: 1;}
+/*END HELPERS*/
+
+
+/*
+HEADER & NAVIGATION
+*/
+.site-header{
+    background-color: #fff;
+}
+#mainnav ul li a, #mainnav ul li::before{
+    color:#414141;
+}
+
+/*HEADINGS & PARAGRAPHS*/
+.big-title{font-size:150px !important; color:#e82e8a !important; font-family: "Space Mono" !important;}
+h1 { font-size: 50px !important; font-family: 'Space Mono' !important; text-transform: uppercase;}
+h2 { font-size: 56px !important; font-family: 'Space Mono' !important; text-transform: uppercase;}
+h3 { font-size: 28px !important;}
+h4 { font-size: 28px;}
+h5 { font-size: 26px !important; font-family: 'Space Mono', sans-serif !important; font-weight: normal !important; }
+h6 { font-size: 21px !important; font-family: 'Space Mono', sans-serif !important; font-weight: normal !important;line-height: 26px !important;}
+p {font-size:18px; font-family: 'Space Mono', sans-serif !important; }
+p:last-child{margin: 0;}
+span{font-size:14px !important;}
+label{font-size:14px !important;}
+li{font-size:16px !important;}
+.sitenav ul li a,#mainnav ul li a{font-size:17px !important; text-transform: uppercase;font-family: 'Space Mono', sans-serif !important;color:#fff;}
+/*END HEADINGS*/
+
+/*BUTTONS*/
+*:focus,*{outline:0 !important; -webkit-tap-highlight-color:none !important;}
+
+button,.button,input[type="submit"],.vc_btn3{min-width:auto !important;padding:8px 0px !important;}
+html body .btn-primary {
+    background: #fff600 !important;
+    color: #27348b !important;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 17px !important;
+    box-shadow: none;
+    border: 0 !important;
+    border-radius: 30px;
+    padding: 17px 35px 16px !important;
+    line-height: .7em !important;
+    font-weight: 600 !important;
+    text-transform: none;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    text-transform: uppercase;
+    color: #000 !important;
+    font-weight: 100 !important;
+}
+
+html body .btn-primary:hover {
+    background-color: #cec707 !important;
+}
+
+html body .btn-secondary {
+    background: transparent !important;
+    color: #fff !important;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 22px !important;
+    font-weight: 100;
+    box-shadow: none;
+    border: 1px solid #fff !important;
+    border-radius: 30px;
+    padding: 22px 35px 21px !important;
+    text-transform: none;
+    line-height: .7em !important;
+    font-weight: 100!important;
+}
+html body .btn-secondary:hover{ 
+    background: #59b1b5 !important;
+}
+
+.btn-third{ background: red !important; color:#fff !important; }
+
+.lae-button.default{
+    background-color: #02239b!important;
+    color:#fff200!important; 
+    font-family: 'Space Mono'; 
+    font-size: 22px !important; 
+    box-shadow: none !important; 
+    border: 0 !important; 
+    border-radius: 30px !important; 
+    padding: 18px 35px 19px !important;
+    text-transform: none !important;
+    line-height: .7em !important;
+    font-weight: normal !important;
+        letter-spacing: 0px !important;
+
+}
+
+
+.lae-button.default:hover{
+    background-color: #ce2a7b !important;
+}
+
+#newsletter-form .btn-special {
+    background-color: #f39c93;
+    font-size: 45px;
+    border-radius: 100%;
+    border: 0;
+        padding: 15px 20px 15px !important;
+    /* line-height: 29px; */
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+
+/*END BUTTONS*/
+
+/*RESPONSIVE MENU*/
+html.responsive-menu-open,html.responsive-menu-open body,html.responsive-menu-open #responsive-menu-container{overflow-x: hidden !important; overflow-y: hidden !important;}
+#responsive-menu-container{transition: 1s !important;}
+/*END MENU*/
+
+/*START SLIDER*/
+.slider-box {
+    width: 1200px!important;
+    left: 0!important;
+    right: 0!important;
+    margin: 0 auto !important;
+    max-width: 1200px !important;
+}
+/*END SLIDER*/
+
+/*START TABLET*/
+@media only screen and (min-width: 900px) and (max-width:1139px){
+	.sitenav ul li a{font-size:14px !important;}
+	.row,.elementor-row{width:90% !important;margin-left:auto !important;margin-right:auto !important;}
+    .elementor-row .elementor-row, .elementor-row .row{
+        width: 100% !important;
+    }
+    .big-title{font-size:72px !important;}
+    h1 { font-size: 60px !important; font-family: 'Space Mono' !important;  letter-spacing: 4px !important; text-transform: uppercase; }
+    h1 br{ display: none ; }
+    h2 { font-size: 32px !important;}
+    h3 { font-size: 26px !important;}
+    h4 { font-size: 22px !important;}
+    h5 { font-size: 20px !important; font-family: 'Space Mono' !important;}
+    h6 { font-size: 18px !important; font-family: 'Space Mono' !important; font-weight: normal !important;line-height: 31px !important;}
+    p{font-size:14px !important; font-family: 'Space Mono' !important; font-weight: normal !important; line-height: 21px !important;}
+    span{font-size:14px !important;}
+    label{font-size:14px !important;}
+    li{font-size:16px !important;}
+    .slider-box {
+        width: 90%!important;
+    }
+    #home-slider .elementor-row{
+        width: 100% !important;
+    }
+}
+/*END TABLET*/
+
+/*MOBILE*/
+
+@media only screen and (max-width: 900px){
+    /*HEADINGS & PARAGRAPHS*/
+    .big-title{font-size:72px !important;}
+    h1 { font-size: 36px !important; letter-spacing: 4px !important; text-transform: uppercase; }
+    h1 br{ display: none ; }
+    h2 { font-size: 21px !important;}
+    h3 { font-size: 19px !important;}
+    h4 { font-size: 16px !important;}
+    h5 { font-size: 16px !important; font-family: 'Space Mono' !important;}
+    h6 { font-size: 18px !important; font-family: 'Space Mono' !important; font-weight: normal !important;line-height: 31px !important;}
+    p{font-size:14px !important; font-family: 'Space Mono' !important; font-weight: normal !important; line-height: 21px !important;}
+    span{font-size:14px !important;}
+    label{font-size:14px !important;}
+    li{font-size:16px !important;}
+    .sitenav ul li a,#mainnav ul li a{font-size:16px !important; text-transform: uppercase;font-family: 'Space Mono' !important;color:#fff;}
+    /*END HEADINGS*/
+
+    .row{width:100% !important;margin-left:auto !important;margin-right:auto !important;}
+
+
+    #newsletter-form .btn-special {
+        font-size: 26px;
+        font-family: 'Space Mono' !important;
+        color:#fff;
+        border-radius: 30px !important;
+        margin-top: 30px;
+        text-transform: none;
+        padding: 16px 25px 15px !important;
+        line-height: 1 !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+	/*.row{margin-left:30px;margin-right:30px !important;}*/
+	.show-on-mobile{display:block !important;}
+	.show-on-desktop{display:none !important;}	
+	.responsive-menu-boring .responsive-menu-inner, .responsive-menu-boring .responsive-menu-inner::before, .responsive-menu-boring .responsive-menu-inner::after{
+		transition-property: transform !important;
+	}
+	
+	.cart-wishlist .mini-cart .cart-link .cart-icon .products-number{    
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.cart-wishlist .mini-cart .cart-link .cart-icon .products-number strong {
+		font-size: 100%;
+		line-height: 0;
+		margin: 0;
+		padding:0;
+	}	
+}
+
+/*END MOBILE*/
+
+
+
+
+/* Force table to not be like tables anymore */
+.woocommerce-page table.shop_table,
+.woocommerce-page table.shop_table thead,
+.woocommerce-page table.shop_table tbody,
+.woocommerce-page table.shop_table th,
+.woocommerce-page table.shop_table td,
+.woocommerce-page table.shop_table tr {
+    display: block;
+    width: 100%;
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+.woocommerce-page table.shop_table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.woocommerce-page table.shop_table tr {
+    /*border: 1px solid #d2d3d3; */
+}
+
+.woocommerce-page table.shop_table td {
+    /* Behave like a "row" */
+    border: 1px solid #d2d3d3;
+    position: relative;
+	padding: 25px;
+    /* Behave like a "row" */
+    max-width: 100%;
+}
+
+.woocommerce-page table.shop_table td a{
+	
+}
+
+.woocommerce-page table.shop_table {
+    border: none;
+	min-width:100% !important;
+    max-width: 100%;
+}
+
+.woocommerce-page table.shop_table td.product-spacer {
+    border-color: #FFF;
+    height: 10px;
+}
+
+.woocommerce-page table.shop_table td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 20%;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+/*
+Label the data
+*/
+.woocommerce-page table.shop_table td.remove-product:before {
+    content: "DELETE";
+}
+
+
+.woocommerce-page table.shop_table td.product-name:before {
+    content: "PRODUCT";
+}
+
+.woocommerce-page table.shop_table td.product-price:before {
+    content: "PRICE";
+}
+
+.woocommerce-page table.shop_table td.product-quantity:before {
+    content: "QUANTITY";
+}
+
+.woocommerce-page table.shop_table td.product-subtotal:before {
+    content: "SUBTOTAL";
+}
+
+.woocommerce-page table.shop_table td.product-total:before {
+    content: "TOTAL";
+}
+
+.woocommerce-page .shop_table .product-thumbnail img{
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	width:auto !important;
+}
+
+.woocommerce-page .shop_table .quantity {
+    display: block;
+    position: relative;
+    top: -16px;
+    float: right;
+    left: 15px;
+}
+
+.woocommerce-page table.cart td.actions,
+.woocommerce-page #content table.cart td.actions {
+    text-align: left;
+    border:0;
+    padding-left: 6px !important;
+}
+
+.woocommerce-page table.cart td.actions .button.alt,
+.woocommerce-page #content table.cart td.actions .button.alt {
+    float: left;
+    margin-top: 10px;
+}
+
+.woocommerce-page table.cart td.actions div,
+.woocommerce-page #content table.cart td.actions div,
+.woocommerce-page table.cart td.actions input,
+.woocommerce-page #content table.cart td.actions input {
+    margin-bottom: 10px;
+}
+
+.woocommerce-page .cart-collaterals .cart_totals {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.woocommerce-page .cart-collaterals .cart_totals th,
+.woocommerce-page .cart-collaterals .cart_totals td {
+    border:0 !important;
+}
+
+.woocommerce-page .cart-collaterals .cart_totals table tr.cart-subtotal td,
+.woocommerce-page .cart-collaterals .cart_totals table tr.shipping td,
+.woocommerce-page .cart-collaterals .cart_totals table tr.total td {
+    padding-left: 6px !important;
+}
+
+.woocommerce-page table.shop_table tr.cart-subtotal td,
+.woocommerce-page table.shop_table tr.shipping td,
+.woocommerce-page table.shop_table tr.total td,
+.woocommerce-page table.shop_table.order_details tfoot th,
+.woocommerce-page table.shop_table.order_details tfoot td {
+    padding-left: 6px !important;
+    /*border:0 !important;*/
+}
+
+.woocommerce-page table.shop_table tbody {
+    padding-top: 10px;
+}
+
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2,
+.woocommerce form .form-row-first,
+.woocommerce form .form-row-last,
+.woocommerce-page form .form-row-first,
+.woocommerce-page form .form-row-last {
+    float: none;
+    width: 100%;
+}
+
+.woocommerce .order_details ul,
+.woocommerce-page .order_details ul,
+.woocommerce .order_details,
+.woocommerce-page .order_details {
+    padding:0;
+}
+
+.woocommerce .order_details li,
+.woocommerce-page .order_details li {
+    clear: left;
+    margin-bottom: 10px;
+    border:0;
+}
+
+/* make buttons full width, text wide anyway, improves effectiveness */
+#content table.cart td.actions .button,
+.woocommerce #content table.cart td.actions .input-text,
+.woocommerce #content table.cart td.actions input,
+.woocommerce table.cart td.actions .button,
+.woocommerce table.cart td.actions .input-text,
+.woocommerce table.cart td.actions input,
+.woocommerce-page #content table.cart td.actions .button,
+.woocommerce-page #content table.cart td.actions .input-text,
+.woocommerce-page #content table.cart td.actions input,
+.woocommerce-page table.cart td.actions .button,
+.woocommerce-page table.cart td.actions .input-text,
+.woocommerce-page table.cart td.actions input {
+    width: 100%;
+}
+
+/* keep coupon at 50% */
+#content table.cart td.actions .coupon .button,
+.woocommerce #content table.cart td.actions .coupon .input-text,
+.woocommerce #content table.cart td.actions .coupon input,
+.woocommerce table.cart td.actions .coupon .button,
+.woocommerce table.cart td.actions .coupon .input-text,
+.woocommerce table.cart td.actions .coupon input,
+.woocommerce-page #content table.cart td.actions .coupon .button,
+.woocommerce-page #content table.cart td.actions .coupon .input-text,
+.woocommerce-page #content table.cart td.actions .coupon input,
+.woocommerce-page table.cart td.actions .coupon .button,
+.woocommerce-page table.cart td.actions .coupon .input-text,
+.woocommerce-page table.cart td.actions .coupon input {
+    width: 48%;
+}
+
+/* clean up how coupon inputs display */
+#content table.cart td.actions .coupon,
+.woocommerce table.cart td.actions .coupon,
+.woocommerce-page #content table.cart td.actions .coupon,
+.woocommerce-page table.cart td.actions .coupon {
+    margin-top: 1.5em;
+}
+
+#content table.cart td.actions .coupon .input-text,
+.woocommerce table.cart td.actions .coupon .input-text,
+.woocommerce-page #content table.cart td.actions .coupon .input-text,
+.woocommerce-page table.cart td.actions .coupon .input-text {
+    margin-bottom: 1em;
+}
+
+/* remove cross sells, they interfere with flow between cart and cart totals + shipping calculator */
+.woocommerce .cart-collaterals .cross-sells,
+.woocommerce-page .cart-collaterals .cross-sells {
+    display: none;
+}
+
+/* CHECKOUT */
+
+.woo-billing p {
+    display: block;
+}
+
+.woo-billing p input{
+    width:100%;
+}
+
+#billing_first_name_field, #billing_last_name_field, #billing_email_field, #billing_phone_field {
+    width: 100%;
+}
+
+.place-order .button {
+	width:100% !important;
+}
+
+.shop_table tfoot{
+	display: block;
+}
+
+.remove-product {
+	text-align: right !important;
+	padding-right: 15px !important;
+}
+
+.remove-product:before {
+    text-align: left;
+    padding-top: 23px;
+    padding-left: 10px;
+}
+
+
+.product-name:before{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.product-name {
+	text-align: left !important;
+	padding-left: 17px !important;
+	padding-bottom: 5px !important;
+}
+
+.product-quantity:before{
+	text-align: left;
+	padding-top: 19px;
+	padding-left: 10px;
+}
+
+.product-quantity {height: 65px}
+
+.cart_item .product-name{
+	text-align:right;
+}
+
+.cart_item .product-name .mobile-price{
+	text-align: left !important;
+	margin-top: 5px;
+}
+
+.shop_table .remove-product .icon-close {
+	color: #6a6a6a;
+	border:1px solid #6a6a6a;
+}
+
+html .cart-wrapper, .shop_table.wishlist_table{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+html .cart-wrapper {
+	width: 100%;
+}
+
+html body input[name="update_cart"].button {
+    background-color: #2d2d73 !important;
+}
+
+html body abbr[title] {
+    border-bottom:none;
+    text-decoration: none;
+}
+
+html .woocommerce-checkout .cart_item .product-name {
+	text-align: right !important;
+}
+
+html .woocommerce #payment {
+    margin-left: 0px;
+    width: 100%;
+}
+
+html .payment_method_paypal img {
+	width: auto;
+}
+
+html #top-link{
+	background: #2d2d73;
+}
+
+
+
+}

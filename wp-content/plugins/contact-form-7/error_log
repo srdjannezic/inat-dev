@@ -1,0 +1,7 @@
+[10-Jan-2019 10:38:05 Europe/Belgrade] PHP Fatal error:  Call to undefined function plugin_basename() in /home/inatsumm/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[10-Jan-2019 12:59:24 Europe/Belgrade] PHP Fatal error:  Call to undefined function plugin_basename() in /home/inatsumm/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[01-Feb-2019 20:32:26 Europe/Belgrade] PHP Fatal error:  Call to undefined function plugin_basename() in /home/inatsumm/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[27-Dec-2019 16:22:11 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/inatsumm/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/inatsumm/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19

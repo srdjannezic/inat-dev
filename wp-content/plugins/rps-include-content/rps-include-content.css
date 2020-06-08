@@ -1,0 +1,123 @@
+.rps-include-content-source {
+	position: relative;
+	z-index: 1;
+}
+
+.rps-include-content-source > .rps-include-content-links {
+	display: block !important;
+	position: absolute;
+	top: -16px;
+	right: 0;
+	width: 100%;
+	overflow: hidden;
+	font-size: 12px !important;
+	line-height: 16px !important;
+}
+
+.rps-include-content-source > .rps-include-content-links a,
+.rps-include-content-source > .rps-include-content-links a:link,
+.rps-include-content-source > .rps-include-content-links a:visited {
+	color: rgb(255,255,255) !important;
+	padding: 0 4px !important;
+}
+
+.rps-include-content-source > .rps-include-content-links a,
+.rps-include-content-source > .rps-include-content-links a:link,
+.rps-include-content-source > .rps-include-content-links a:visited {
+	display: none !important;
+	float: right !important;
+	margin: 0 0 0 1px !important;
+	background-color: #900 !important;
+	text-decoration: none !important;
+}
+
+.rps-include-content-source > .rps-include-content-links a:focus,
+.rps-include-content-source > .rps-include-content-links a:hover,
+.rps-include-content-source > .rps-include-content-links a:active {
+	background-color: #333 !important;
+}
+
+.rps-include-content-source > .rps-include-content-label {
+	position: absolute !important;
+	top: 50% !important;
+	right: 0 !important;
+	margin: -16px -16px 0 0;
+	width: 16px !important;
+	line-height: 16px !important;
+	text-align: center !important;
+	font-size: 11px !important;
+	background-color: #CCC !important;
+	color: #333 !important;
+	font-family: serif !important;
+	font-style: italic !important;
+	cursor: help;
+}
+
+.rps-include-content-source:hover .rps-include-content-links + .rps-include-content {
+	-webkit-box-shadow: 0 0 20px #EEE inset !important;
+	-moz-box-shadow: 0 0 20px #EEE inset !important;
+	box-shadow: 0 0 20px #EEE inset !important;
+	background-color: #FCFCFC !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	-moz-opacity: .9;
+	-khtml-opacity: .9;
+	opacity: .9;
+}
+
+.rps-include-content-source:hover > .rps-include-content > a,
+.rps-include-content-source:hover > .rps-include-content > a:link,
+.rps-include-content-source:hover > .rps-include-content > a:visited {
+	color: blue !important;
+	text-decoration: underline !important;
+}
+
+.rps-include-content-source:hover > .rps-include-content-links > a,
+.rps-include-content-source:hover > .rps-include-content-links > a:link,
+.rps-include-content-source:hover > .rps-include-content-links > a:visited {
+	display: block !important;
+}
+
+.rps-include-content-source:hover > .rps-include-content-label {
+	display: block !important;
+	color: #FFF !important;
+	background-color: #E5BA5B !important;
+	font-weight: bold !important;
+}
+
+.rps-include-content-source.rps-error .rps-include-content {
+	background: #a90329 !important;
+	background: -moz-linear-gradient(45deg,  #a90329 0%, #8f0222 44%, #6d0019 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019));
+	background: -webkit-linear-gradient(45deg,  #a90329 0%,#8f0222 44%,#6d0019 100%);
+	background: -o-linear-gradient(45deg,  #a90329 0%,#8f0222 44%,#6d0019 100%);
+	background: -ms-linear-gradient(45deg,  #a90329 0%,#8f0222 44%,#6d0019 100%);
+	background: linear-gradient(45deg,  #a90329 0%,#8f0222 44%,#6d0019 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 );
+	padding: 1em !important;
+	font-size: 15px !important;
+}
+
+.rps-include-content-source.rps-error strong,
+.rps-include-content-source.rps-error div:first-child,
+.rps-include-content-source.rps-error a,
+.rps-include-content-source.rps-error a:link,
+.rps-include-content-source.rps-error a:visited {
+	color: #FFF !important;
+}
+
+.rps-include-content-source.rps-error ol {
+	margin: .5em 0 0 1em !important;
+	padding: 0 0 0 .5em !important;
+	font-size: 1em !important;
+}
+
+.rps-include-content-source.rps-error li {
+	color: #FFF !important;
+	font-size: .8em !important;
+	line-height: normal !important;
+}
+
+.rps-include-content-source.rps-error li + li {
+	margin: 0 !important;
+}

@@ -1,0 +1,30 @@
+[11-May-2018 19:25:38 Europe/Belgrade] PHP Fatal error:  Call to undefined function get_header() in /home/inatsumm/public_html/wp-content/themes/sydney/index.php on line 14
+[07-Jul-2018 08:18:43 Europe/Belgrade] PHP Fatal error:  Call to undefined function get_header() in /home/inatsumm/public_html/wp-content/themes/sydney/index.php on line 14
+[09-Mar-2019 18:53:26 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/inatsumm/public_html/wp-content/themes/sydney/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/inatsumm/public_html/wp-content/themes/sydney/index.php on line 14
+[17-Nov-2019 00:00:44 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/inatsumm/public_html/wp-content/themes/sydney/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/inatsumm/public_html/wp-content/themes/sydney/404.php on line 8
+[18-Nov-2019 21:16:30 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/inatsumm/public_html/wp-content/themes/sydney/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/inatsumm/public_html/wp-content/themes/sydney/404.php on line 8
+[14-Dec-2019 07:42:28 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/inatsumm/public_html/wp-content/themes/sydney/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/inatsumm/public_html/wp-content/themes/sydney/404.php on line 8
+[16-Dec-2019 08:05:15 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/inatsumm/public_html/wp-content/themes/sydney/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/inatsumm/public_html/wp-content/themes/sydney/404.php on line 8
+[12-Jan-2020 09:50:18 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/inatsumm/public_html/wp-content/themes/sydney/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/inatsumm/public_html/wp-content/themes/sydney/404.php on line 8
+[15-Jan-2020 07:36:50 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/inatsumm/public_html/wp-content/themes/sydney/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/inatsumm/public_html/wp-content/themes/sydney/404.php on line 8
